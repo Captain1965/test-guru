@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Test-Guru Учебный проект от Thinknetica
 
-Things you may want to cover:
+Список сущностей :
 
-* Ruby version
+Пользователь: Имеет свое имя и группу. Аутентифицирует пользователя. login - логин пользователя password пароль пользователя
 
-* System dependencies
+Тест: (Основная сущность) Имеет title - название теста level - уровень теста categoy - категория author - автор теста
 
-* Configuration
+Вопрос: Вопрос связан с тестом, содержат текст вопросов и список ответов body - текст вопроса test - тест, к которому относится вопрос
 
-* Database creation
+Ответ: Связаны с вопросом, содержат текст ответов body - текст ответа question - вопрос, к которому принадлежит ответ correct - отметка правильного ответа
 
-* Database initialization
+Результат: Содержит результаты прохождения теста
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Категория: Указывает к какой категории относится тест title - название категории
